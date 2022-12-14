@@ -1,3 +1,8 @@
+.pOverride {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 .left{
     justify-content: left;
 }
@@ -12,6 +17,8 @@
     background-color: orange;
     margin: 2%;
     border-radius: 20px;
+    width: 100%;
+    
 }
 
 html {
@@ -85,4 +92,26 @@ hr {
     background-color:#000000;
     width: 80%;
     border-color: transparent;    
+}
+.space {
+  display: flex; 
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+p {
+  text-align: left;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+.Info {
+  width: 30%;
+
+}
+
+.center-text {
+  text-align: center;
 }
